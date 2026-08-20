@@ -6,11 +6,12 @@ Exchange rates come from https://www.exchangerate-api.com/docs/free
 usage: currency_converter.py [-h] [-a AMOUNT] [-i INPUT_CURR] [-o OUTPUT_CURR] [-v VERBOSITY]
 
 options:
-  -h, --help            show this help message and exit
-  -a, --amount AMOUNT   Amount to convert
-  -i, --input_curr INPUT_CURR
-                        Currency to convert from
-  -o, --output_curr OUTPUT_CURR
-                        Currency to convert to
-  -v, --verbosity VERBOSITY
-                        Control amount of output. Values can be 0 or more
+  -h, --help                     Show help message and exit
+  
+  -a, --amount AMOUNT            Amount to convert
+  
+  -i, --input_curr INPUT_CURR    Currency to convert from
+  
+  -o, --output_curr OUTPUT_CURR  Currency to convert to
+  
+  -v, --verbosity VERBOSITY      Control amount of output. Values can be 0 or more
